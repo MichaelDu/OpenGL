@@ -20,6 +20,9 @@
 		03E7953217C60E6600F87FF5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E7953117C60E6600F87FF5 /* QuartzCore.framework */; };
 		03E7953417C60EBA00F87FF5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E7953317C60EBA00F87FF5 /* MainWindow.xib */; };
 		03E7953717C60FB400F87FF5 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E7953617C60FB300F87FF5 /* OpenGLView.m */; };
+		03E7953A17C61AC700F87FF5 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E7953917C61AC700F87FF5 /* GLESUtils.m */; };
+		03E7953C17C61C1A00F87FF5 /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 03E7953B17C61BE500F87FF5 /* VertexShader.glsl */; };
+		03E7953E17C61C5E00F87FF5 /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 03E7953D17C61C4700F87FF5 /* FragmentShader.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,10 @@
 		03E7953317C60EBA00F87FF5 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		03E7953517C60FB300F87FF5 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
 		03E7953617C60FB300F87FF5 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		03E7953817C61AC700F87FF5 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		03E7953917C61AC700F87FF5 /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		03E7953B17C61BE500F87FF5 /* VertexShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
+		03E7953D17C61C4700F87FF5 /* FragmentShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = FragmentShader.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +102,10 @@
 				03E7952217C60E3C00F87FF5 /* AppDelegate.m */,
 				03E7953517C60FB300F87FF5 /* OpenGLView.h */,
 				03E7953617C60FB300F87FF5 /* OpenGLView.m */,
+				03E7953817C61AC700F87FF5 /* GLESUtils.h */,
+				03E7953917C61AC700F87FF5 /* GLESUtils.m */,
+				03E7953B17C61BE500F87FF5 /* VertexShader.glsl */,
+				03E7953D17C61C4700F87FF5 /* FragmentShader.glsl */,
 				03E7951917C60E3C00F87FF5 /* Supporting Files */,
 			);
 			path = Tutorial01;
@@ -166,6 +177,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E7953E17C61C5E00F87FF5 /* FragmentShader.glsl in Resources */,
+				03E7953C17C61C1A00F87FF5 /* VertexShader.glsl in Resources */,
 				03E7951D17C60E3C00F87FF5 /* InfoPlist.strings in Resources */,
 				03E7952517C60E3C00F87FF5 /* Default.png in Resources */,
 				03E7952717C60E3C00F87FF5 /* Default@2x.png in Resources */,
@@ -184,6 +197,7 @@
 				03E7951F17C60E3C00F87FF5 /* main.m in Sources */,
 				03E7952317C60E3C00F87FF5 /* AppDelegate.m in Sources */,
 				03E7953717C60FB400F87FF5 /* OpenGLView.m in Sources */,
+				03E7953A17C61AC700F87FF5 /* GLESUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +312,7 @@
 				03E7952E17C60E3C00F87FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
